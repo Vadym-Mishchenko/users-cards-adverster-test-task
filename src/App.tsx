@@ -1,9 +1,4 @@
+import { UsersPage } from './components';
 import './App.css';
 
-export const App = () => {
-  return (
-    <>
-      <p>Hello World</p>
-    </>
-  );
-};
+export const App = () => <UsersPage />;
