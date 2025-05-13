@@ -21,3 +21,16 @@ export interface User {
     bs: string;
   };
 }
+
+export type UserFilterableFields =
+  | 'name'
+  | 'username'
+  | 'email'
+  | 'address.suite'
+  | 'address.city'
+  | 'address.zipcode'
+  | 'phone'
+  | 'website'
+  | 'company.name'
+  | 'company.catchPhrase'
+  | 'company.bs';

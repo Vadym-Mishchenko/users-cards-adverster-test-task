@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# User Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based app for displaying a list of users with filtering functionality.
 
-Currently, two official plugins are available:
+This app fetches data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) and displays user information in a responsive card layout. Users can filter the displayed list based on various properties of the user.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **[Live Demo](https://vadym-mishchenko.github.io/users-cards-adverster-test-task/)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎯 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+- Fetches a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- Displays the list of users in a card format.
+- Users can filter the list based on the following properties:
+  - Name
+  - Username
+  - Email
+  - Phone
+  - Company name
+  - Website
+- Built with React and TypeScript.
+- Fully responsive design using Material UI.
+- Implemented with Object-Oriented Programming principles.
+- Smooth animations using Framer Motion.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+## 🚀 Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🎨 MUI (Material UI)
+- 🎬 Framer Motion
+- 🛠️ ESLint and Prettier
+
+---
+
+## ✍️ Author
+
+Designed and developed by **Vadym Mishchenko**

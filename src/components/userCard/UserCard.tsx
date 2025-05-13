@@ -64,8 +64,8 @@ export const UserCard = ({ user, index }: UserCardProps) => {
     <UserCardStyled
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.6, ease: 'easeOut', delay: index * 0.1 }}
+      viewport={{ once: true, amount: 0.01 }}
+      transition={{ duration: 0.3, ease: 'easeOut', delay: index * 0.1 }}
     >
       <CardHeader
         avatar={
@@ -119,7 +119,7 @@ export const UserCard = ({ user, index }: UserCardProps) => {
           <RoomIcon fontSize="small" color="action" />
           <CellContainer>
             <Typography textAlign="start" variant="body2">
-              address: {address.city}
+              city: {address.city}
             </Typography>
             <Typography textAlign="start" variant="body2">
               street: {address.street}
