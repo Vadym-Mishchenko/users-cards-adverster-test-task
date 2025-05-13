@@ -62,10 +62,10 @@ export const UserCard = ({ user, index }: UserCardProps) => {
 
   return (
     <UserCardStyled
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.3, ease: 'easeOut', delay: index * 0.1 }}
+      transition={{ duration: 0.4, ease: 'easeOut', delay: index * 0.1 }}
+      viewport={{ once: true, amount: 0.4 }}
     >
       <CardHeader
         avatar={

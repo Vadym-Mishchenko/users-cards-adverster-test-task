@@ -33,6 +33,7 @@ This app fetches data from [JSONPlaceholder](https://jsonplaceholder.typicode.co
 - 🎨 MUI (Material UI)
 - 🎬 Framer Motion
 - 🛠️ ESLint and Prettier
+- 🗺️ React-Leaflet
 
 ---
 

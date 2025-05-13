@@ -9,7 +9,6 @@ export const UserCardStyled = styled(motion.create(Box))`
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.25);
   box-shadow: 0 4px 90px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
 
   @media (max-width: 420px) {
     width: 100%;
